@@ -1,22 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic,cyrillic-ext');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.Banner {
+  position: absolute;
+  width: 960px;
+  height: 408px;
+  left: 480px;
+  top: 40px;
+  background: url(./images/im1.png);
+  border: 1px solid #DAE0E5;
+  box-sizing: border-box;
+  border-radius: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Banner-ic-logo {
+  position: absolute;
+  top: 20px;
+  left: 5px;
 }
 
-.App-link {
-  color: #09d3ac;
+.MainText {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  position: absolute;
+  width: 191.04px;
+  height: 55.06px;
+  left: 118.96px;
+  top: 50.28px;
+  color: #2E3134;
+}
+
+.TextPforBanner{
+  position: absolute;
+  width: 262px;
+  height: 141px;
+  left: 46px;
+  top: 221px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #2E3134;
+}
+
+.CamBlock1{
+  position: absolute;
+  width: 390px;
+  height: 619px;
+  left: 525px;
+  top: 551px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+  z-index: 1;
+}
+
+.CamBlock2{
+  position: absolute;
+  width: 390px;
+  height: 619px;
+  left: 1005px;
+  top: 551px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+  z-index: 1;
+}
+
+.Camera1 {
+  position: absolute;
+  width: 210px;
+  height: 458px;
+  left: 90px;
+  top: 80px;
+}
+
+.Camera2 {
+  position: absolute;
+  width: 210px;
+  height: 458px;
+  left: 90px;
+  top: 80px;
+}
+
+.ShadowCamBlock1 {
+  position: absolute;
+  width: 314px;
+  height: 619px;
+  left: 563px;
+  top: 551px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  box-shadow: 0px 25px 100px #48AE4B;
+  border-radius: 18px;
+  z-index: 0;
+}
+
+.ShadowCamBlock2 {
+  position: absolute;
+  width: 314px;
+  height: 619px;
+  left: 1043px;
+  top: 551px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  box-shadow: 0px 25px 100px #48AE4B;
+  border-radius: 18px;
+  z-index: 0;
+}
+
+.infoButton1 {
+  position: absolute;
+  width: 260px;
+  height: 24px;
+  left: 590px;
+  top: 1185px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #747474;
+  border: none;
+  background: none;
+}
+
+.infoButton2 {
+  position: absolute;
+  width: 260px;
+  height: 24px;
+  left: 1069px;
+  top: 1185px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #747474;
+  border: none;
+  background: none;
+}
+
+.BuyText {
+  position: absolute;
+  width: 960px;
+  height: 48px;
+  left: 480px;
+  top: 1273px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #313334;
+}
+
+.BuyBlock1 {
+  position: absolute;
+  width: 213.7px;
+  height: 213.7px;
+  left: 479px;
+  top: 1361px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+}
+.BuyBlock2 {
+  position: absolute;
+  width: 213.7px;
+  height: 213.7px;
+  left: 728.67px;
+  top: 1359.81px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+}
+.BuyBlock3 {
+  position: absolute;
+  width: 213.7px;
+  height: 213.7px;
+  left: 978.33px;
+  top: 1361px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+}
+.BuyBlock4 {
+  position: absolute;
+  width: 213.7px;
+  height: 213.7px;
+  left: 1228px;
+  top: 1361px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+}
+
+.Cam1 {
+  position: absolute;
+  width: 39.04px;
+  height: 87px;
+  left: 87.33px;
+  top: 51.49px;
+}
+
+.Ras {
+  position: absolute;
+  width: 109.25px;
+  height: 74.74px;
+  left: 52.96px;
+  top: 64.96px;
+}
+
+.OneHundred {
+  position: absolute;
+  width: 45.74px;
+  height: 46.03px;
+  left: 25.62px;
+  top: 71.98px;
+}
+
+.WiFi {
+  position: absolute;
+  width: 43.46px;
+  height: 33.11px;
+  left: 142.34px;
+  top: 78.44px;
+}
+
+.SLON {
+  position: absolute;
+  left: 86.56px;
+  top: 10.15px;
+  bottom: 162.43px;
+
+}
+
+.TextPforBuyBlock1 {
+  position: absolute;
+  width: 187px;
+  height: 24px;
+  left: 13px;
+  top: 159px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.TextPforBuyBlock2 {
+  position: absolute;
+  width: 187px;
+  height: 24px;
+  left: 13.33px;
+  top: 160px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.TextPforBuyBlock3 {
+  position: absolute;
+  width: 214px;
+  height: 50px;
+  left: 0px;
+  top: 171px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.TextPforBuyBlock3paket {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 80.67px;
+  top: 153px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.TextPforBuyBlock4 {
+  position: absolute;
+  width: 187px;
+  height: 24px;
+  left: 492px;
+  top: 1520px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
 }
