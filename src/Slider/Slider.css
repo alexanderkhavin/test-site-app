@@ -1,0 +1,17 @@
+.MainFeedbackBlock {
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2255px; 
+}
+
+.Feedback {
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2255px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+}

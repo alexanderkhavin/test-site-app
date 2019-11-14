@@ -1,0 +1,93 @@
+.CallbackBlock {
+    position: absolute;
+    width: 872px;
+    height: 332px;
+    left: 524px;
+    top: 1685px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    z-index: 1;
+  }
+  
+  .ShadowCallbackBlock {
+    position: absolute;
+    width: 796px;
+    height: 332px;
+    left: 562px;
+    top: 1685px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    box-shadow: 0px 25px 100px #48AE4B;
+    border-radius: 18px;
+    z-index: 0;
+  }
+  
+  .TextCallbackBlock {
+    position: absolute;
+    width: 360px;
+    height: 51px;
+    left: 256px;
+    top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #313334;
+  }
+  
+  .InputCallbackBlock {
+    position: absolute;
+    width: 276px;
+    height: 60px;
+    left: 298px;
+    top: 135px;
+    border: 3px solid #DAE0E5;
+    border-radius: 4px;
+  }
+
+  .ButtonCallbackBlock {
+    position: absolute;
+    width: 278px;
+    height: 60px;
+    left: 298px;
+    top: 241px;
+    background: #72BF44;
+    border: none;
+    border-radius: 4px;
+    z-index: 1;
+  }
+
+  .icSend {
+    position: absolute;
+    width: 42.54px;
+    height: 28.63px;
+    left: 218.72px;
+    top: 16.37px;
+  }
+
+  .CallBackBlockButtonText {
+    position: absolute;
+    width: 190px;
+    height: 26px;
+    left: 20.88px;
+    top: -3px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .ShadowButtonCallbackBlock {
+    position: absolute;
+    width: 259.44px;
+    height: 60px;
+    left: 307.28px;
+    top: 246.92px;
+    background: #009810;
+    border-radius: 4px;
+    z-index: 0;
+  }

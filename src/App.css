@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic,cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic,cyrillic-ext');
 
-.App {
-  text-align: center;
-}
-
 .Banner {
   position: absolute;
   width: 960px;
@@ -12,9 +8,9 @@
   left: 480px;
   top: 40px;
   background: url(./images/im1.png);
-  border: 1px solid #DAE0E5;
   box-sizing: border-box;
   border-radius: 18px;
+  z-index: 0;
 }
 
 .Banner-ic-logo {
@@ -64,6 +60,16 @@
   border-radius: 18px;
   z-index: 1;
 }
+.CamBlock1.noneback{
+  position: absolute;
+  width: 390px;
+  height: 619px;
+  left: 525px;
+  top: 551px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 18px;
+  z-index: 1;
+}
 
 .CamBlock2{
   position: absolute;
@@ -72,6 +78,16 @@
   left: 1005px;
   top: 551px;
   background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+  z-index: 1;
+}
+.CamBlock2.noneback{
+  position: absolute;
+  width: 390px;
+  height: 619px;
+  left: 1005px;
+  top: 551px;
+  background: rgba(255, 255, 255, 0);
   border-radius: 18px;
   z-index: 1;
 }
@@ -98,7 +114,7 @@
   height: 619px;
   left: 563px;
   top: 551px;
-  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  background: rgba(255, 255, 255, 0);
   box-shadow: 0px 25px 100px #48AE4B;
   border-radius: 18px;
   z-index: 0;
@@ -110,7 +126,7 @@
   height: 619px;
   left: 1043px;
   top: 551px;
-  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  background: rgba(255, 255, 255, 0);
   box-shadow: 0px 25px 100px #48AE4B;
   border-radius: 18px;
   z-index: 0;
@@ -133,6 +149,7 @@
   color: #747474;
   border: none;
   background: none;
+  outline: none;
 }
 
 .infoButton2 {
@@ -152,6 +169,7 @@
   color: #747474;
   border: none;
   background: none;
+  outline: none;
 }
 
 .BuyText {
@@ -214,6 +232,14 @@
   top: 51.49px;
 }
 
+.Cam2 {
+  position: absolute;
+  width: 39.04px;
+  height: 87px;
+  left: 87.33px;
+  top: 51.49px;
+}
+
 .Ras {
   position: absolute;
   width: 109.25px;
@@ -251,7 +277,7 @@
   width: 187px;
   height: 24px;
   left: 13px;
-  top: 159px;
+  top: 150px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -265,7 +291,7 @@
   width: 187px;
   height: 24px;
   left: 13.33px;
-  top: 160px;
+  top: 150px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -279,7 +305,7 @@
   width: 214px;
   height: 50px;
   left: 0px;
-  top: 171px;
+  top: 160px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -293,7 +319,7 @@
   width: 52px;
   height: 22px;
   left: 80.67px;
-  top: 153px;
+  top: 140px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -303,17 +329,214 @@
   color: #FFFFFF;
 }
 
-.TextPforBuyBlock4 {
-  position: absolute;
-  width: 187px;
-  height: 24px;
-  left: 492px;
-  top: 1520px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #FFFFFF;
+
+.ModalOverlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.534);
+  z-index: 2;
 }
+
+.ModalWindow {
+  z-index: 3;
+  position: absolute !important;
+  width: 720px;
+  height: 698px;
+  left: 720px;
+  top: 106px;
+  background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  border-radius: 18px;
+  }
+
+  .CloseModalButton {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: -90px;
+    top: 300px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+  }
+
+  .ModalWindow2 {
+    z-index: 3;
+    position: absolute !important;
+    width: 720px;
+    height: 698px;
+    left: 480px;
+    top: 106px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+    }
+  
+    .CloseModalButton2 {
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      left: 750px;
+      top: 300px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    }
+
+    .ModalWindowBlock11 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 40px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlock12 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 40px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlock21 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 251px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlock22 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 251px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlock31 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 462px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlock32 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 462px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block11 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 40px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block12 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 40px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block21 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 251px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block22 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 251px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block31 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 40px;
+      top: 462px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindow2Block32 {
+      position: absolute;
+      width: 311px;
+      height: 196px;
+      left: 369px;
+      top: 462px;
+      background: #FFFFFF;
+      border-radius: 18px;
+    }
+
+    .ModalWindowBlockCircle {
+      position: absolute;
+      width: 126px;
+      height: 126px;
+      left: 18px;
+      top: 35px;
+      border-radius: 100px;
+      background: linear-gradient(180deg, #8BB928 0%, #45AE4D 100%);
+      box-shadow: 0px 10px 40px #45AE4D;
+    }
+
+    .ModalWindowBlockText {
+      position: absolute;
+      width: 130px;
+      height: 71px;
+      left: 163px;
+      top: 42px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+      display: flex;
+      align-items: center;
+
+      color: #313334;
+    }
+
+    .ModalWindowBlockCircleImage {
+      position: absolute;
+      left: 18px;
+      top: 27px;
+    }
+
+    
+  
+  
