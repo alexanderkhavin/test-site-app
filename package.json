@@ -6,6 +6,7 @@
     "infinite-react-carousel": "^1.1.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-img-carousel": "^1.5.3",
     "react-scripts": "3.2.0"
   },
   "scripts": {

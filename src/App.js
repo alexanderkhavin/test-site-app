@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './App.css';
+import Feedback from './Feedback/Feedback';
 import icLogo from './images/ic-logo.svg';
 import Camera from './images/camera.png';
 import Cam1 from './images/cam (1).png';
@@ -10,7 +11,6 @@ import BTV from './images/btv.png';
 import Ras from './images/ras.png';
 import WiFi from './images/wifi.png';
 import Form from './Form/Form';
-import SimpleSlider from './Slider/Slider';
 import Close from './images/Group.png';
 import Smart from './images/smart.png';
 import icWifi from './images/ic-wifi.png';
@@ -198,7 +198,7 @@ class App extends React.Component {
           <Form />
         </div>
         <div>
-          <SimpleSlider />
+          <Feedback />
         </div>
       </div>
     );

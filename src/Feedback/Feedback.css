@@ -1,0 +1,106 @@
+.Feedback {
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2255px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+}
+
+.Feedback0none{
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2255px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+}
+.Feedback1none{
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2500px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+}
+.Feedback2none{
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2745px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+}
+
+.UserImage {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 32px;
+    top: 32px;
+}
+
+.UserName {
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 142px;
+    top: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.UserComment {
+    position: absolute;
+    width: 386px;
+    height: 90px;
+    left: 142px;
+    top: 101px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.FeedbackText {
+    position: absolute;
+    width: 960px;
+    height: 48px;
+    left: 479px;
+    top: 2138px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #313334;
+}
+
+.ButtonFeedbackBlock {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 276.1px;
+    top: 200px;
+    background: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
